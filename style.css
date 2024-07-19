@@ -47,7 +47,7 @@ body {
 }
 
 .navigation .nav-pills {
-    text-align: left;
+    text-align: right;
     margin: 0.6rem 1rem;
 }
 
@@ -55,6 +55,9 @@ body {
     color: var(--off-blue);
     text-decoration: none;
     padding: 0.5rem 2rem;
+    border: 1px double rgb(189, 232, 71);
+    background-color: aliceblue;
+    border-radius: 1rem;
 }
 
 .list-dec:hover {
